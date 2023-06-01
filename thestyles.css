@@ -1,0 +1,69 @@
+*, 
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    font-family: 'Outfit';
+    box-sizing: border-box;
+}
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --Lgray: hsl(212, 45%, 89%);
+    --Gblue: hsl(220, 15%, 55%);
+    --Dblue: hsl(218, 44%, 22%);
+}
+
+.attribution {
+    font-size: 15px;
+    text-align: center;
+    padding-top: 5em ;
+    color: (var(--Dblue));
+}
+
+.attribution a {
+    color: var(--Gblue);
+}
+
+.main{
+    background-color: var(--Lgray);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--white);
+    padding: 1.5em;
+    border-radius: 20px;
+    
+}
+
+img {
+    border-radius: 20px;
+    width: 20em;
+    height: 20em;
+}
+
+h2{
+    text-align: center;
+    font-size:25px;
+    color: var(--Dblue);
+    width: 12em;
+    padding: 15px 0 15px 0;
+}
+
+p{
+    text-align: center;
+    font-size: 15px;
+    color: var(--Lgray);
+    width: 18em;
+    padding: 5px 0 5px 0;
+}
